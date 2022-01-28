@@ -1,5 +1,6 @@
 #Movie Ticket Booking Project -aleynazengin
-###Functional Requirements:
+
+Functional Requirements:
 
 Every movie has a Genre.
 
