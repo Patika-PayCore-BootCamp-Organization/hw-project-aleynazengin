@@ -99,7 +99,7 @@ VALUES ('Ali', 'Tek', 'male', 27, '905554443322', 'ali@gmail.com'),
 
 INSERT INTO genre(name)
 VALUES ('Action'),
-       ('Comedy'),
+       ('Comedy'),git pull
        ('Drama'),
        ('Fantasy'),
        ('Horror'),
