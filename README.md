@@ -1,20 +1,8 @@
-#Movie Ticket Booking Project -aleynazengin
+# Movie Ticket Booking Project- Aleyna Zengin
+## Requirements
+- JDK 8+
+- Maven
+- PostgreSQL
+- Your prefered IDE (optional but recommended, i use Intellij)
 
-Functional Requirements:
-
-Every movie has a Genre.
-
-Every ticket has a movie and a user.
-
-User can register and login to the application.
-
-User can create/delete/update a movie.
-
-User can buy a ticket (create a ticket)
-
-User can cancel and update a ticket.
-
-User can view all the listed movies.
-
-User can check the ticket history after login.
-
+A Movie Ticket Booking Project using Spring Boot,Spring RESTful web services,Spring Data JPA/PostgreSQL, Hibernate,Spring Security,JWT authentication using Java 8 features 
