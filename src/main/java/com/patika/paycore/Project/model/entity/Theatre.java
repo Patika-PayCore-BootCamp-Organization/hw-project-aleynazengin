@@ -1,5 +1,6 @@
-package com.patika.paycore.Project.model;
+package com.patika.paycore.Project.model.entity;
 
+import com.patika.paycore.Project.model.entity.Screening_Movie;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
