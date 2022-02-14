@@ -32,7 +32,7 @@ public class MovieController {
     }
 
     @PostMapping(value = "/create")
-    public void saveFlight(@Valid @RequestBody Movie movie) {
+    public void saveMovie(@Valid @RequestBody Movie movie) {
         movieService.addMovie(movie);
     }
 
