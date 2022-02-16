@@ -1,5 +1,6 @@
 package com.patika.paycore.Project.model.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -21,6 +22,6 @@ public class Genre {
     @NotNull(message = "Name can not be null")
     private String name;
 
-    @OneToMany(mappedBy = "genre", cascade = CascadeType.MERGE)
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "genre", cascade = CascadeType.ALL)
     private List<Movie> movies;
 }
