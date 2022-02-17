@@ -1,7 +1,9 @@
 package com.patika.paycore.Project.service;
 
+import com.patika.paycore.Project.model.MovieDTO;
 import com.patika.paycore.Project.model.entity.Movie;
 
+import javax.validation.Valid;
 import java.util.List;
 
 public interface MovieService {
@@ -9,7 +11,7 @@ public interface MovieService {
 
     Movie getMovie(Integer id);
 
-    void addMovie(Movie movie);
+    void addMovie(@Valid MovieDTO movieDTO);
 
     Movie updateMovie(Movie movie);
 

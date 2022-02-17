@@ -1,5 +1,6 @@
 package com.patika.paycore.Project.controller;
 
+import com.patika.paycore.Project.model.MovieDTO;
 import com.patika.paycore.Project.model.entity.Movie;
 import com.patika.paycore.Project.service.MovieService;
 import lombok.RequiredArgsConstructor;
@@ -32,7 +33,7 @@ public class MovieController {
     }
 
     @PostMapping(value = "/create")
-    public void saveMovie(@Valid @RequestBody Movie movie) {
+    public void saveMovie(@Valid @RequestBody MovieDTO movie) {
         movieService.addMovie(movie);
     }
 
